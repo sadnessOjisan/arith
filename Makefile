@@ -46,6 +46,7 @@ windows: $(DEPEND) $(OBJS) f.exe
 include .depend
 
 # Build an executable typechecker
+# ここのmain.cmoなくても動いた
 f: $(OBJS) main.cmo 
 	@echo Linking $@
 	ocamlc -o $@ $(COMMONOBJS) $(OBJS) 

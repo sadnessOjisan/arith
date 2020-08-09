@@ -14,6 +14,19 @@ you add new modules or new dependencies between
 existing modules. (The graph is stored in the file
 .depend)
 
+f という項チェッカーを作り、それをテストできるプログラム
+
+```
+# fを作る
+$ make
+
+# test実施
+$ make test
+
+# cleanup
+$ make clean
+```
+
 ## make test したら何が起きるのかメモ
 
 `make test` すると、
