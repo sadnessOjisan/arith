@@ -92,4 +92,3 @@ let res =
     with Exit x -> x) 
   ()
 let () = print_flush();
-let () = exit res

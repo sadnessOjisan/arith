@@ -16,6 +16,7 @@ let reservedWords = [
   ("else", fun i -> Parser.ELSE i);
   ("true", fun i -> Parser.TRUE i);
   ("false", fun i -> Parser.FALSE i);
+    (* ここにこういう使う記号一覧を書いてるからここにないもの出てきたらparser errorで弾ける *)
   ("succ", fun i -> Parser.SUCC i);
   ("pred", fun i -> Parser.PRED i);
   ("iszero", fun i -> Parser.ISZERO i);
