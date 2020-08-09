@@ -84,8 +84,4 @@ and printtm_ATerm outer t = match t with
      in f 1 t1
   | t -> pr "("; printtm_Term outer t; pr ")"
 
-let printtm t = printtm_Term true t 
-
-
-
-
+let printtm t = printtm_Term true t
